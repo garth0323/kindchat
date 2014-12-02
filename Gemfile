@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 gem 'private_pub'
 gem 'thin'
+gem "twitter-bootstrap-rails"
 
 gem 'jquery-rails'
 gem 'turbolinks'
