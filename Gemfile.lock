@@ -1,3 +1,35 @@
+GIT
+  remote: git://github.com/radar/forem-bootstrap.git
+  revision: 10be50afc1d0a22af1306076e41624c55fc585be
+  specs:
+    forem-bootstrap (0.0.1)
+      bootstrap-sass (~> 3.1)
+
+GIT
+  remote: git://github.com/radar/forem-redcarpet.git
+  revision: c53be9a5c3e97d65546f3f56b53f82669f3a5af5
+  specs:
+    forem-redcarpet (1.0.2)
+      nokogiri
+      pygments.rb (= 0.5.4)
+      redcarpet (= 3.0.0)
+
+GIT
+  remote: git://github.com/radar/forem.git
+  revision: 074629e37a2712fb346657449250eaf6b9d39881
+  branch: rails4
+  specs:
+    forem (1.0.0.beta1)
+      cancancan (~> 1.7)
+      decorators (~> 1.0.2)
+      friendly_id (~> 5.0.0)
+      gemoji (= 2.1.0)
+      rails (~> 4.0, <= 4.2)
+      sanitize (= 2.0.6)
+      select2-rails (~> 3.5.4)
+      simple_form (~> 3.0.1)
+      workflow (= 1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -30,7 +62,10 @@ GEM
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.9)
+    bootstrap-sass (3.3.1.0)
+      sass (~> 3.2)
     builder (3.2.2)
+    cancancan (1.9.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -40,6 +75,8 @@ GEM
     coffee-script-source (1.8.0)
     cookiejar (0.3.2)
     daemons (1.1.9)
+    decorators (1.0.3)
+      railties (>= 3.0.19, != 3.2.9, != 3.2.8, != 3.2.7, != 3.2.6, != 3.2.5, != 3.2.4, != 3.2.3, != 3.2.2, != 3.2.10, != 3.2.1, != 3.2.0, != 3.1.9, != 3.1.8, != 3.1.7, != 3.1.6, != 3.1.5, != 3.1.4, != 3.1.3, != 3.1.2, != 3.1.1, != 3.1.0)
     devise (3.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -69,6 +106,9 @@ GEM
     faye-websocket (0.8.0)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.4.0)
+    friendly_id (5.0.4)
+      activerecord (>= 4.0.0)
+    gemoji (2.1.0)
     hike (1.2.3)
     http_parser.rb (0.6.0)
     i18n (0.6.11)
@@ -82,11 +122,18 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
+    mini_portile (0.6.1)
     minitest (5.4.3)
     multi_json (1.10.1)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
+    posix-spawn (0.3.9)
     private_pub (1.0.3)
       faye
+    pygments.rb (0.5.4)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -108,8 +155,11 @@ GEM
     rake (10.4.0)
     rdoc (4.1.2)
       json (~> 1.4)
+    redcarpet (3.0.0)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
+    sanitize (2.0.6)
+      nokogiri (>= 1.4.4)
     sass (3.2.19)
     sass-rails (4.0.5)
       railties (>= 4.0.0, < 5.0)
@@ -119,6 +169,11 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    select2-rails (3.5.9.1)
+      thor (~> 0.14)
+    simple_form (3.0.3)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
     spring (1.2.0)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -152,6 +207,9 @@ GEM
     warden (1.2.3)
       rack (>= 1.0)
     websocket-driver (0.4.0)
+    will_paginate (3.0.7)
+    workflow (1.0.0)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
@@ -159,6 +217,9 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise
+  forem!
+  forem-bootstrap!
+  forem-redcarpet!
   jbuilder (~> 2.0)
   jquery-rails
   private_pub
@@ -171,3 +232,4 @@ DEPENDENCIES
   turbolinks
   twitter-bootstrap-rails
   uglifier (>= 1.3.0)
+  will_paginate

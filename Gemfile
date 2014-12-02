@@ -10,6 +10,10 @@ gem 'devise'
 gem 'private_pub'
 gem 'thin'
 gem "twitter-bootstrap-rails"
+gem 'forem', github: "radar/forem", branch: "rails4"
+gem 'forem-bootstrap', github: "radar/forem-bootstrap"
+gem 'forem-redcarpet', github: "radar/forem-redcarpet"
+gem 'will_paginate'
 
 gem 'jquery-rails'
 gem 'turbolinks'

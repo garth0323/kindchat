@@ -15,5 +15,6 @@
 //= require twitter/bootstrap
 //= require chat
 //= require private_pub
+//= require forem
 //= require turbolinks
 //= require_tree .
