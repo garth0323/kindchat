@@ -14,6 +14,7 @@ gem 'forem', github: "radar/forem", branch: "rails4"
 gem 'forem-bootstrap', github: "radar/forem-bootstrap"
 gem 'forem-redcarpet', github: "radar/forem-redcarpet"
 gem 'will_paginate'
+gem 'ngrok', '~> 1.6.1'
 
 gem 'jquery-rails'
 gem 'turbolinks'

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141202213382) do
+ActiveRecord::Schema.define(version: 20141203052607) do
 
   create_table "conversations", force: true do |t|
     t.integer  "sender_id"
@@ -132,7 +132,6 @@ ActiveRecord::Schema.define(version: 20141202213382) do
   add_index "messages", ["user_id"], name: "index_messages_on_user_id"
 
   create_table "users", force: true do |t|
-    t.string   "name"
     t.string   "email",                  default: "",               null: false
     t.string   "encrypted_password",     default: "",               null: false
     t.string   "reset_password_token"
@@ -148,6 +147,7 @@ ActiveRecord::Schema.define(version: 20141202213382) do
     t.boolean  "forem_admin",            default: false
     t.string   "forem_state",            default: "pending_review"
     t.boolean  "forem_auto_subscribe",   default: false
+    t.string   "name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

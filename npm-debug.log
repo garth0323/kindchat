@@ -1,0 +1,361 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'localtunnel' ]
+2 info using npm@1.4.15
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'localtunnel', null ]
+6 verbose cache add name=undefined spec="localtunnel" args=["localtunnel",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'localtunnel',
+7 verbose parsed url   path: 'localtunnel',
+7 verbose parsed url   href: 'localtunnel' }
+8 silly lockFile a0661bc8-localtunnel localtunnel
+9 verbose lock localtunnel /Users/Garth/.npm/a0661bc8-localtunnel.lock
+10 silly lockFile a0661bc8-localtunnel localtunnel
+11 silly lockFile a0661bc8-localtunnel localtunnel
+12 verbose addNamed [ 'localtunnel', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c752cf78-localtunnel localtunnel@
+15 verbose lock localtunnel@ /Users/Garth/.npm/c752cf78-localtunnel.lock
+16 silly addNameRange { name: 'localtunnel', range: '*', hasData: false }
+17 verbose url raw localtunnel
+18 verbose url resolving [ 'https://registry.npmjs.org/', './localtunnel' ]
+19 verbose url resolved https://registry.npmjs.org/localtunnel
+20 info trying registry request attempt 1 at 21:46:11
+21 http GET https://registry.npmjs.org/localtunnel
+22 http 200 https://registry.npmjs.org/localtunnel
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Wed, 03 Dec 2014 04:46:11 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"CY5OBRT9Z73RDQ4DJS7WAZXFW"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=60',
+23 silly registry.get     'content-length': '22031',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1417581971.692851,VS0,VE60',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'localtunnel', range: '*', hasData: true }
+25 silly addNameRange versions [ 'localtunnel',
+25 silly addNameRange   [ '0.0.0',
+25 silly addNameRange     '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.0.3',
+25 silly addNameRange     '0.0.4',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '1.0.0',
+25 silly addNameRange     '1.1.0',
+25 silly addNameRange     '1.1.1',
+25 silly addNameRange     '1.1.2',
+25 silly addNameRange     '1.2.0',
+25 silly addNameRange     '1.3.0',
+25 silly addNameRange     '1.4.0',
+25 silly addNameRange     '1.5.0' ] ]
+26 verbose addNamed [ 'localtunnel', '1.5.0' ]
+27 verbose addNamed [ '1.5.0', '1.5.0' ]
+28 silly lockFile 75a53410-localtunnel-1-5-0 localtunnel@1.5.0
+29 verbose lock localtunnel@1.5.0 /Users/Garth/.npm/75a53410-localtunnel-1-5-0.lock
+30 silly lockFile b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+31 verbose lock https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz /Users/Garth/.npm/b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz',
+32 verbose addRemoteTarball   '5be949779325e9f3273021a3f38d2e7a8dcd7c4f' ]
+33 info retry fetch attempt 1 at 21:46:11
+34 verbose fetch to= /var/folders/q8/j7hhnvdn0wndm9x076km1bkr0000gn/T/npm-3847-X_nnWjfD/registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+35 http GET https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+36 http 200 https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+37 silly lockFile b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+38 silly lockFile b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+39 silly lockFile 75a53410-localtunnel-1-5-0 localtunnel@1.5.0
+40 silly lockFile 75a53410-localtunnel-1-5-0 localtunnel@1.5.0
+41 silly lockFile c752cf78-localtunnel localtunnel@
+42 silly lockFile c752cf78-localtunnel localtunnel@
+43 silly resolved [ { author: { name: 'Roman Shtylman', email: 'shtylman@gmail.com' },
+43 silly resolved     name: 'localtunnel',
+43 silly resolved     description: 'expose localhost to the world',
+43 silly resolved     version: '1.5.0',
+43 silly resolved     repository:
+43 silly resolved      { type: 'git',
+43 silly resolved        url: 'git://github.com/shtylman/localtunnel.git' },
+43 silly resolved     dependencies: { request: '2.11.4', optimist: '0.3.4', debug: '0.7.4' },
+43 silly resolved     devDependencies: { mocha: '~1.17.0' },
+43 silly resolved     scripts: { test: 'mocha --ui qunit --reporter list --timeout 10000 -- test/index.js' },
+43 silly resolved     bin: { lt: './bin/client' },
+43 silly resolved     main: './client.js',
+43 silly resolved     gitHead: 'a6845ec63bd4f485f3c45c4272eb38733448ee05',
+43 silly resolved     bugs: { url: 'https://github.com/shtylman/localtunnel/issues' },
+43 silly resolved     homepage: 'https://github.com/shtylman/localtunnel',
+43 silly resolved     _id: 'localtunnel@1.5.0',
+43 silly resolved     _shasum: '5be949779325e9f3273021a3f38d2e7a8dcd7c4f',
+43 silly resolved     _from: 'localtunnel@',
+43 silly resolved     _npmVersion: '1.4.23',
+43 silly resolved     _npmUser: { name: 'shtylman', email: 'shtylman@gmail.com' },
+43 silly resolved     maintainers: [ [Object] ],
+43 silly resolved     dist:
+43 silly resolved      { shasum: '5be949779325e9f3273021a3f38d2e7a8dcd7c4f',
+43 silly resolved        tarball: 'http://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz' },
+43 silly resolved     directories: {},
+43 silly resolved     _resolved: 'https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz' } ]
+44 info install localtunnel@1.5.0 into /usr/local/lib
+45 info installOne localtunnel@1.5.0
+46 verbose lib/node_modules/localtunnel unbuild
+47 verbose tar unpack /Users/Garth/.npm/localtunnel/1.5.0/package.tgz
+48 silly lockFile 64ac3b3b-cal-lib-node-modules-localtunnel tar:///usr/local/lib/node_modules/localtunnel
+49 verbose lock tar:///usr/local/lib/node_modules/localtunnel /Users/Garth/.npm/64ac3b3b-cal-lib-node-modules-localtunnel.lock
+50 silly lockFile 226d60a6-pm-localtunnel-1-5-0-package-tgz tar:///Users/Garth/.npm/localtunnel/1.5.0/package.tgz
+51 verbose lock tar:///Users/Garth/.npm/localtunnel/1.5.0/package.tgz /Users/Garth/.npm/226d60a6-pm-localtunnel-1-5-0-package-tgz.lock
+52 silly gunzTarPerm modes [ '755', '644' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm extractEntry .npmignore
+55 silly gunzTarPerm extractEntry README.md
+56 silly gunzTarPerm extractEntry client.js
+57 silly gunzTarPerm extractEntry bin/client
+58 silly gunzTarPerm extractEntry .travis.yml
+59 silly gunzTarPerm extractEntry History.md
+60 silly gunzTarPerm extractEntry test/index.js
+61 silly lockFile 64ac3b3b-cal-lib-node-modules-localtunnel tar:///usr/local/lib/node_modules/localtunnel
+62 silly lockFile 64ac3b3b-cal-lib-node-modules-localtunnel tar:///usr/local/lib/node_modules/localtunnel
+63 silly lockFile 226d60a6-pm-localtunnel-1-5-0-package-tgz tar:///Users/Garth/.npm/localtunnel/1.5.0/package.tgz
+64 silly lockFile 226d60a6-pm-localtunnel-1-5-0-package-tgz tar:///Users/Garth/.npm/localtunnel/1.5.0/package.tgz
+65 info preinstall localtunnel@1.5.0
+66 verbose readDependencies using package.json deps
+67 verbose readDependencies using package.json deps
+68 verbose cache add [ 'request@2.11.4', null ]
+69 verbose cache add name=undefined spec="request@2.11.4" args=["request@2.11.4",null]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'request@2.11.4',
+70 verbose parsed url   path: 'request@2.11.4',
+70 verbose parsed url   href: 'request@2.11.4' }
+71 verbose cache add [ 'optimist@0.3.4', null ]
+72 verbose cache add name=undefined spec="optimist@0.3.4" args=["optimist@0.3.4",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'optimist@0.3.4',
+73 verbose parsed url   path: 'optimist@0.3.4',
+73 verbose parsed url   href: 'optimist@0.3.4' }
+74 verbose cache add [ 'debug@0.7.4', null ]
+75 verbose cache add name=undefined spec="debug@0.7.4" args=["debug@0.7.4",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'debug@0.7.4',
+76 verbose parsed url   path: 'debug@0.7.4',
+76 verbose parsed url   href: 'debug@0.7.4' }
+77 verbose cache add name="request" spec="2.11.4" args=["request","2.11.4"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '2.11.4',
+78 verbose parsed url   path: '2.11.4',
+78 verbose parsed url   href: '2.11.4' }
+79 verbose addNamed [ 'request', '2.11.4' ]
+80 verbose addNamed [ '2.11.4', '2.11.4' ]
+81 silly lockFile 228b00c3-request-2-11-4 request@2.11.4
+82 verbose lock request@2.11.4 /Users/Garth/.npm/228b00c3-request-2-11-4.lock
+83 verbose cache add name="optimist" spec="0.3.4" args=["optimist","0.3.4"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '0.3.4',
+84 verbose parsed url   path: '0.3.4',
+84 verbose parsed url   href: '0.3.4' }
+85 verbose addNamed [ 'optimist', '0.3.4' ]
+86 verbose addNamed [ '0.3.4', '0.3.4' ]
+87 silly lockFile 823918a4-optimist-0-3-4 optimist@0.3.4
+88 verbose lock optimist@0.3.4 /Users/Garth/.npm/823918a4-optimist-0-3-4.lock
+89 verbose cache add name="debug" spec="0.7.4" args=["debug","0.7.4"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '0.7.4',
+90 verbose parsed url   path: '0.7.4',
+90 verbose parsed url   href: '0.7.4' }
+91 verbose addNamed [ 'debug', '0.7.4' ]
+92 verbose addNamed [ '0.7.4', '0.7.4' ]
+93 silly lockFile 16160008-debug-0-7-4 debug@0.7.4
+94 verbose lock debug@0.7.4 /Users/Garth/.npm/16160008-debug-0-7-4.lock
+95 verbose url raw debug
+96 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+97 verbose url resolved https://registry.npmjs.org/debug
+98 info trying registry request attempt 1 at 21:46:12
+99 verbose etag "VQ4UAEL0STM9O99YLW3OJYMP"
+100 http GET https://registry.npmjs.org/debug
+101 verbose url raw optimist
+102 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+103 verbose url resolved https://registry.npmjs.org/optimist
+104 info trying registry request attempt 1 at 21:46:12
+105 verbose etag "3KVQ97E8OBB11GH7ZR33V2B3A"
+106 http GET https://registry.npmjs.org/optimist
+107 verbose url raw request
+108 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+109 verbose url resolved https://registry.npmjs.org/request
+110 info trying registry request attempt 1 at 21:46:12
+111 verbose etag "CQZ5MALJD25CEHYD2ID95X0UC"
+112 http GET https://registry.npmjs.org/request
+113 http 200 https://registry.npmjs.org/debug
+114 silly registry.get cb [ 200,
+114 silly registry.get   { date: 'Wed, 03 Dec 2014 04:46:12 GMT',
+114 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+114 silly registry.get     etag: '"57WL6BOFFHV27PP9K311DRHD1"',
+114 silly registry.get     'content-type': 'application/json',
+114 silly registry.get     'cache-control': 'max-age=60',
+114 silly registry.get     'content-length': '28294',
+114 silly registry.get     'accept-ranges': 'bytes',
+114 silly registry.get     via: '1.1 varnish',
+114 silly registry.get     age: '26',
+114 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+114 silly registry.get     'x-cache': 'HIT',
+114 silly registry.get     'x-cache-hits': '1',
+114 silly registry.get     'x-timer': 'S1417581972.275562,VS0,VE0',
+114 silly registry.get     vary: 'Accept',
+114 silly registry.get     'keep-alive': 'timeout=10, max=50',
+114 silly registry.get     connection: 'Keep-Alive' } ]
+115 silly lockFile e18a217e--npmjs-org-debug-debug-0-7-4-tgz https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+116 verbose lock https://registry.npmjs.org/debug/-/debug-0.7.4.tgz /Users/Garth/.npm/e18a217e--npmjs-org-debug-debug-0-7-4-tgz.lock
+117 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-0.7.4.tgz',
+117 verbose addRemoteTarball   '06e1ea8082c2cb14e39806e22e2f6f757f92af39' ]
+118 info retry fetch attempt 1 at 21:46:12
+119 verbose fetch to= /var/folders/q8/j7hhnvdn0wndm9x076km1bkr0000gn/T/npm-3847-X_nnWjfD/registry.npmjs.org/debug/-/debug-0.7.4.tgz
+120 http GET https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+121 http 200 https://registry.npmjs.org/optimist
+122 silly registry.get cb [ 200,
+122 silly registry.get   { date: 'Wed, 03 Dec 2014 04:46:12 GMT',
+122 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+122 silly registry.get     etag: '"CKA0UXENDQZNGQIU0H1IZGCT3"',
+122 silly registry.get     'content-type': 'application/json',
+122 silly registry.get     'cache-control': 'max-age=60',
+122 silly registry.get     'content-length': '48265',
+122 silly registry.get     'accept-ranges': 'bytes',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     age: '42',
+122 silly registry.get     'x-served-by': 'cache-dfw1820-DFW',
+122 silly registry.get     'x-cache': 'HIT',
+122 silly registry.get     'x-cache-hits': '1',
+122 silly registry.get     'x-timer': 'S1417581972.279822,VS0,VE0',
+122 silly registry.get     vary: 'Accept',
+122 silly registry.get     'keep-alive': 'timeout=10, max=50',
+122 silly registry.get     connection: 'Keep-Alive' } ]
+123 silly lockFile 6c2be0e1--org-optimist-optimist-0-3-4-tgz https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+124 verbose lock https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz /Users/Garth/.npm/6c2be0e1--org-optimist-optimist-0-3-4-tgz.lock
+125 verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz',
+125 verbose addRemoteTarball   '4d6d0bd71ffad0da4ba4f6d876d5eeb04e07480b' ]
+126 info retry fetch attempt 1 at 21:46:12
+127 verbose fetch to= /var/folders/q8/j7hhnvdn0wndm9x076km1bkr0000gn/T/npm-3847-X_nnWjfD/registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+128 http GET https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+129 http 200 https://registry.npmjs.org/request
+130 silly registry.get cb [ 200,
+130 silly registry.get   { date: 'Wed, 03 Dec 2014 04:46:12 GMT',
+130 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+130 silly registry.get     etag: '"D3D32OKHQKUV96KLFV6JSJBQZ"',
+130 silly registry.get     'content-type': 'application/json',
+130 silly registry.get     'cache-control': 'max-age=60',
+130 silly registry.get     'content-length': '128511',
+130 silly registry.get     'accept-ranges': 'bytes',
+130 silly registry.get     via: '1.1 varnish',
+130 silly registry.get     age: '4',
+130 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+130 silly registry.get     'x-cache': 'HIT',
+130 silly registry.get     'x-cache-hits': '1',
+130 silly registry.get     'x-timer': 'S1417581972.279749,VS0,VE0',
+130 silly registry.get     vary: 'Accept',
+130 silly registry.get     'keep-alive': 'timeout=10, max=50',
+130 silly registry.get     connection: 'Keep-Alive' } ]
+131 silly lockFile ceb4f909-s-org-request-request-2-11-4-tgz https://registry.npmjs.org/request/-/request-2.11.4.tgz
+132 verbose lock https://registry.npmjs.org/request/-/request-2.11.4.tgz /Users/Garth/.npm/ceb4f909-s-org-request-request-2-11-4-tgz.lock
+133 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.11.4.tgz',
+133 verbose addRemoteTarball   '6347d7d44e52dc588108cc1ce5cee975fc8926de' ]
+134 info retry fetch attempt 1 at 21:46:12
+135 verbose fetch to= /var/folders/q8/j7hhnvdn0wndm9x076km1bkr0000gn/T/npm-3847-X_nnWjfD/registry.npmjs.org/request/-/request-2.11.4.tgz
+136 http GET https://registry.npmjs.org/request/-/request-2.11.4.tgz
+137 http 200 https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+138 silly lockFile e18a217e--npmjs-org-debug-debug-0-7-4-tgz https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+139 silly lockFile e18a217e--npmjs-org-debug-debug-0-7-4-tgz https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+140 silly lockFile 16160008-debug-0-7-4 debug@0.7.4
+141 silly lockFile 16160008-debug-0-7-4 debug@0.7.4
+142 http 200 https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+143 silly lockFile 6c2be0e1--org-optimist-optimist-0-3-4-tgz https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+144 silly lockFile 6c2be0e1--org-optimist-optimist-0-3-4-tgz https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+145 silly lockFile 823918a4-optimist-0-3-4 optimist@0.3.4
+146 silly lockFile 823918a4-optimist-0-3-4 optimist@0.3.4
+147 verbose about to build /usr/local/lib/node_modules/localtunnel
+148 verbose lib/node_modules/localtunnel unbuild
+149 info preuninstall localtunnel@1.5.0
+150 info uninstall localtunnel@1.5.0
+151 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild localtunnel@1.5.0
+152 verbose /usr/local/bin,[object Object] binRoot
+153 info postuninstall localtunnel@1.5.0
+154 error Error: EACCES, mkdir '/Users/Garth/.npm/optimist/0.3.4'
+154 error  { [Error: EACCES, mkdir '/Users/Garth/.npm/optimist/0.3.4']
+154 error   errno: 3,
+154 error   code: 'EACCES',
+154 error   path: '/Users/Garth/.npm/optimist/0.3.4',
+154 error   parent: 'localtunnel' }
+155 error Please try running this command again as root/Administrator.
+156 error System Darwin 14.0.0
+157 error command "node" "/usr/local/bin/npm" "install" "-g" "localtunnel"
+158 error cwd /Users/Garth/Documents/workspace/kindchat
+159 error node -v v0.10.28
+160 error npm -v 1.4.15
+161 error path /Users/Garth/.npm/optimist/0.3.4
+162 error code EACCES
+163 error errno 3
+164 error stack Error: EACCES, mkdir '/Users/Garth/.npm/optimist/0.3.4'
+165 verbose exit [ 3, true ]
